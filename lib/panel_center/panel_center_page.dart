@@ -10,7 +10,7 @@ class _PanelCenterPageState extends State<PanelCenterPage> {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
-        backgroundColor: Colors.red,
+        backgroundColor: Colors.blue,
       ),
     );
   }

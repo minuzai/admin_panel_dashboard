@@ -10,7 +10,7 @@ class _PanelLeftPageState extends State<PanelLeftPage> {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
-        backgroundColor: Colors.red,
+        backgroundColor: Colors.green,
       ),
     );
   }
