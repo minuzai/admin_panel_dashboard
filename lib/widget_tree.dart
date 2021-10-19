@@ -1,3 +1,4 @@
+import 'package:admin_panel_dashboard/drawer/drawer_page.dart';
 import 'package:flutter/material.dart';
 
 import 'package:admin_panel_dashboard/responsive_layout.dart';
@@ -25,6 +26,7 @@ class _WidgetTreeState extends State<WidgetTree> {
         largeTablet: Container(),
         computer: Container(),
       ),
+      drawer: DrawerPage(),
     );
   }
 }
