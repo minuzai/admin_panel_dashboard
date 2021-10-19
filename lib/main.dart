@@ -1,3 +1,4 @@
+import 'package:admin_panel_dashboard/widget_tree.dart';
 import 'package:flutter/material.dart';
 
 void main() => runApp(MyApp());
@@ -7,12 +8,7 @@ class MyApp extends StatelessWidget {
   Widget build(BuildContext context) {
     return MaterialApp(
       title: 'Flutter demo',
-      home: Scaffold(
-        appBar: AppBar(
-          title: Text('Flutter Demo'),
-        ),
-        body: SizedBox(),
-      ),
+      home: WidgetTree(),
     );
   }
 }
