@@ -1,3 +1,4 @@
+import 'package:admin_panel_dashboard/app_bar/app_bar_widget.dart';
 import 'package:admin_panel_dashboard/drawer/drawer_page.dart';
 import 'package:admin_panel_dashboard/panel_center/panel_center_page.dart';
 import 'package:admin_panel_dashboard/panel_left/panel_left_page.dart';
@@ -19,7 +20,7 @@ class _WidgetTreeState extends State<WidgetTree> {
         child: ResponsiveLayout.isTiny(context) ||
                 ResponsiveLayout.isTinyHeight(context)
             ? Container()
-            : AppBar(),
+            : AppBarWidget(),
         preferredSize: Size(double.infinity, 100),
       ),
       body: ResponsiveLayout(
